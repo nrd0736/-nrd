@@ -1,0 +1,1 @@
+Все задачи взяты с сайта http://cppstudio.com/cat/285/
