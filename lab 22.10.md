@@ -19,6 +19,7 @@
         
 6.  Пишем код программы
    >Код программы
+   
     #include<iostream>	
     using namespace std;
     int main()
