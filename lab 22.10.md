@@ -18,8 +18,7 @@
     >vim hel.cpp
         
 6.  Пишем код программы
-   >#include<iostream>
-	
+   >#include<iostream>	
     using namespace std;
     int main()
     {
