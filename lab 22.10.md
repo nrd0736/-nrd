@@ -3,22 +3,22 @@
 #   в операцонный системе Linux.
 
 1.  Установка компилятора с++
-        >apt install g++ -y
+    >apt install g++ -y
         
 2.  Установка текстового редактора VIM
-        >apt insall vim
+    >apt insall vim
         
 3.  Переходим в директорию home
-        >cd /home
+    >cd /home
         
 4.  Создаём файл Hel 
-        >touch hel.cpp
+    >touch hel.cpp
         
 5.  Открываем файл через vim
-        >vim hel.cpp
+    >vim hel.cpp
         
 6.  Пишем код программы
-	>#include<iostream>
+    >#include<iostream>
     >using namespace std;
     >int main()
     >{
