@@ -1,3 +1,4 @@
+//Дано целое число A.Проверить истинность высказывания : «Число A является четным».
 #include<iostream>
 using namespace std;
 int main()

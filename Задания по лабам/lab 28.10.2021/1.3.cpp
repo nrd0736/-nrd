@@ -1,4 +1,5 @@
-#include <iostream>
+// Даны стороны прямоугольника a и b. Найти его площадь S = a·b ипериметр P = 2·(a + b).
+#include <iostream> 
 using namespace std;
 int main()
 {
