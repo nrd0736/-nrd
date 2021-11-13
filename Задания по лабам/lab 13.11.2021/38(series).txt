@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+int sr,cp=0,cm=0,coun=0;
+double n[100];
+setlocale (LC_ALL,"RUS");
+cout<<"Введите набор\n";
+for (int i=0;;i++)
+{
+cin>>n[i];
+if (n[i]==0) break;
+coun++;
+}
+sr=n[0];
+for (int i=1;i<=coun;i++)
+{
+if (n[i]>n[i-1]) cp++;
+if (n[i]>n[i-1]) cm++;
+}
+}
