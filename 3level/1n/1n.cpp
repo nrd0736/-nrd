@@ -1,0 +1,37 @@
+#include<iostream>
+#include<fstream>
+using namespace std;
+int main()
+{
+	setlocale(LC_ALL, "RUS");
+	char bufer;
+	string path;
+	cout << "Введите название файла формата txt (Файл должен находиться в одном катологе с программой) " << endl;
+	er:
+	cin >> path;
+	int Lsk=0, Rsk=0;
+	fstream fin(path+".txt");
+	fstream fout("out.txt");
+	if (fin.is_open()) cout << "\nФайл открыт,произвожу проверку\n";
+	else
+	{
+		cout << "Ошибка при открытии файла, попробуйте снова" <<endl;
+		goto er;
+	}
+	while (fin.get(bufer))
+	{
+		if (bufer == '{') Lsk++;
+		else if (bufer == '}') Rsk++;
+	}
+	fin.close();
+	if (Lsk == Rsk) {
+		fout << "Баланс скобок соблюдён";
+		cout << "Баланс скобок соблюдён";
+	}
+	else {
+		fout << "Баланс скобок не соблюдён";
+		cout << "Баланс скобок не соблюдён";
+	}
+	fout.close();
+	
+}
