@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/ADR">
+        <file>res/ADR/NameADR.txt</file>
+        <file>res/ADR/ADR.txt</file>
+    </qresource>
+    <qresource prefix="/Blank">
+        <file>res/Blank/BlankNumber.html</file>
+        <file>res/Blank/gr.jpg</file>
+        <file>res/Blank/BlankFIO.html</file>
+        <file>res/Blank/icon.jpg</file>
+        <file>res/Blank/icon.ico</file>
+    </qresource>
+</RCC>

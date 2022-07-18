@@ -1,0 +1,10 @@
+debug/addf.o
+debug/fill.o
+debug/main.o
+debug/meny.o
+debug/test.o
+debug/qrc_res.o
+debug/moc_addf.o
+debug/moc_fill.o
+debug/moc_meny.o
+debug/moc_test.o

@@ -1,0 +1,10 @@
+release/addf.o
+release/fill.o
+release/main.o
+release/meny.o
+release/test.o
+release/qrc_res.o
+release/moc_addf.o
+release/moc_fill.o
+release/moc_meny.o
+release/moc_test.o

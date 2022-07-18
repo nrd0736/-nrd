@@ -1,0 +1,21 @@
+html,body {
+      height: 297mm;
+      width: 210mm;
+  		margin: 0.95cm 2.54cm 1cm 1cm;
+  		padding: 0;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      line-height: 21px;
+}
+p {
+  text-indent: 1.27cm;
+  margin: 0;
+}
+.upstr{
+  font-size: 17px;
+}
+.midlstr{
+  font-size: 18px;
+}
+.endstr{
+font-size: 13px;
+}
